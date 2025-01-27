@@ -1,42 +1,83 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+/* Main container to align all cars */
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px; /* Optional gap between car containers */
+  padding: 20px;
+  margin: 0 auto}
+
+/* Individual car container */
+.car-container {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
   text-align: center;
+  background-color: #f9f9f9;
+  width: 300px;  /* Adjust width for each car container */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px 0; /* Optional margin for spacing */
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* Car image styling */
+.car-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 15px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Styling for the car title (Make) */
+.car-container h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+/* Styling for the car model */
+.car-container h2 {
+  font-size: 22px;
+  color: #555;
+  margin-bottom: 10px;
 }
 
-.card {
-  padding: 2em;
+/* Styling for year of manufacture */
+.car-container h3 {
+  font-size: 18px;
+  color: #777;
+  margin-bottom: 10px;
 }
 
-.read-the-docs {
-  color: #888;
+/* Styling for car color */
+.car-container h4 {
+  font-size: 18px;
+  color: #999;
+  margin-bottom: 10px;
+}
+
+/* Styling for car price */
+.car-container h5 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  margin-top: 10px;
+}
+
+/* Optional: You can add hover effect for each car container */
+.car-container:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+li {
+  list-style-type: none;
+}
+
+.buyCar{
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
 }
