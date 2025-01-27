@@ -1,0 +1,23 @@
+{
+    "cars":[
+    {
+    "name" : "Toyota Hiace 3.0 COMMUTER D4D Van AT",
+    "price" : "6,500,000",
+    "picture" : "https://i.pinimg.com/736x/22/3d/13/223d13c21f74f8db3105cb9401bbc4de.jpg",
+    "fuel" : "petrol",
+    "year" : "2018",
+    "displacement" : "2982cc",
+    "model" : "Toyota Hiace Commuter"
+    },
+     
+    {
+    "name" : "Toyota Fortuner Toyota Land Cruiser Prado Lexus GX Car",
+    "price" : "8,000,000",
+    "picture" : "https://i.pinimg.com/736x/d7/3a/f8/d73af822e7ae484561635ad1550fd784.jpg",
+    "fuel" : "Diesel",
+    "year" : "2019",
+    "displacement" : "3500cc",
+    "model" : "Luxury mid-size SUV"
+    }
+    ]
+  }
