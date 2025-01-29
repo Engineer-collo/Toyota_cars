@@ -1,30 +1,33 @@
 /* Main container to align all cars */
-.main {
+img{
+  width: 50%;
+}
+
+.main{
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr); */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 20px; /* Optional gap between car containers */
-  padding: 20px;
-  margin: 0 auto}
+}
 
 /* Individual car container */
 .car-container {
   border: 1px solid #ccc;
-  border-radius: 10px;
   padding: 20px;
   text-align: center;
   background-color: #f9f9f9;
-  width: 300px;  /* Adjust width for each car container */
+  width: 330px;  
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  margin: 10px 0; /* Optional margin for spacing */
+  /* margin: 10px 0;  */
 }
 
 /* Car image styling */
 .car-container img {
-  width: 100%;
-  height: auto;
+  /* width: 100%; */
+  /* height: auto; */
   border-radius: 5px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 /* Styling for the car title (Make) */
@@ -45,14 +48,12 @@
 .car-container h3 {
   font-size: 18px;
   color: #777;
-  margin-bottom: 10px;
 }
 
 /* Styling for car color */
 .car-container h4 {
   font-size: 18px;
   color: #999;
-  margin-bottom: 10px;
 }
 
 /* Styling for car price */
@@ -60,7 +61,6 @@
   font-size: 20px;
   font-weight: bold;
   color: #000;
-  margin-top: 10px;
 }
 
 /* Optional: You can add hover effect for each car container */
