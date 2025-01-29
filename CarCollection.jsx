@@ -1,6 +1,6 @@
 function CarCollection({data}) {
   return (
-    <div>
+    <div className="main">
     {data.map((car) => {
         return (
           <ul className='main'>
@@ -13,7 +13,7 @@ function CarCollection({data}) {
             <h3>Make:{car.year}</h3>
             <h4>Fuel type:{car.fuel}</h4>
             <h4>Displacement:{car.displacement}</h4>
-            <button className="buyCar">Buy car</button>
+            <button className="buyCar">Place Order</button>
             
           </li>
           </ul>
