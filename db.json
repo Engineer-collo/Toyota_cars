@@ -1,23 +1,146 @@
 {
-    "cars":[
+  "cars": [
     {
-    "name" : "Toyota Hiace 3.0 COMMUTER D4D Van AT",
-    "price" : "6,500,000",
-    "picture" : "https://i.pinimg.com/736x/22/3d/13/223d13c21f74f8db3105cb9401bbc4de.jpg",
-    "fuel" : "petrol",
-    "year" : "2018",
-    "displacement" : "2982cc",
-    "model" : "Toyota Hiace Commuter"
+      "id": "1",
+      "name": "Toyota Hiace 3.0 COMMUTER D4D Van AT",
+      "price": "6,500,000",
+      "picture": "https://i.pinimg.com/736x/22/3d/13/223d13c21f74f8db3105cb9401bbc4de.jpg",
+      "fuel": "petrol",
+      "year": "2018",
+      "displacement": "2982cc",
+      "model": "Toyota Hiace Commuter"
     },
-     
     {
-    "name" : "Toyota Fortuner Toyota Land Cruiser Prado Lexus GX Car",
-    "price" : "8,000,000",
-    "picture" : "https://i.pinimg.com/736x/d7/3a/f8/d73af822e7ae484561635ad1550fd784.jpg",
-    "fuel" : "Diesel",
-    "year" : "2019",
-    "displacement" : "3500cc",
-    "model" : "Luxury mid-size SUV"
+      "id": "2",
+      "name": "Toyota Fortuner Toyota Land Cruiser Prado Lexus GX Car",
+      "price": "8,000,000",
+      "picture": "https://i.pinimg.com/736x/d7/3a/f8/d73af822e7ae484561635ad1550fd784.jpg",
+      "fuel": "Diesel",
+      "year": "2019",
+      "displacement": "3500cc",
+      "model": "Luxury mid-size SUV"
+    },
+    {
+      "id": "3",
+      "name": "Toyota RAV4 Adventure",
+      "price": "5,000,000",
+      "picture": "https://i.pinimg.com/736x/64/c4/68/64c4686f4c20add90a1eb3df25906674.jpg",
+      "fuel": "Diesel",
+      "year": "2022",
+      "displacement": "2700cc",
+      "model": "TNGA-K (Toyota New Global Architecture)"
+    },
+    {
+      "id": "4",
+      "name": "lexus LX 6000 SUV",
+      "price": "6,000,000",
+      "picture": "https://i.pinimg.com/236x/ed/39/da/ed39da3199348e73b617286586bcb1ea.jpg",
+      "fuel": "petrol",
+      "year": "2017",
+      "displacement": "3300cc",
+      "model": "Body-on-frame SUV"
+    },
+    {
+      "id": "5",
+      "name": "Toyota SW4 GR-S",
+      "price": "6,000,000",
+      "picture": "https://i.pinimg.com/736x/82/75/17/8275179b8d282c5eb2d95031bc9f97a3.jpg",
+      "fuel": "diesel",
+      "year": "2017",
+      "displacement": "3500cc",
+      "model": "Mid-size SUV"
+    },
+    {
+      "id": "6",
+      "name": "Toyota SW4 Fortuner",
+      "price": "3,200,000",
+      "picture": "https://www.elcarrocolombiano.com/wp-content/webp-express/webp-images/uploads/2021/11/20211118-TOYOTA-SW4-FORTUNER-2022-BRASIL-PORTADA.jpg.webp",
+      "fuel": "petrol",
+      "year": "2016",
+      "displacement": "1500cc",
+      "model": "Toyota SW4 Fortuner"
+    },
+    {
+      "id": "7",
+      "name": "Toyota Aygo",
+      "price": "4,200,300",
+      "picture": "https://i0.wp.com/www.photoscar.fr/wp-content/uploads/2021/11/Toyota-Aygo-X-2022-08.jpg?resize=1536%2C1152&ssl=1",
+      "fuel": "diesel",
+      "year": "2022",
+      "displacement": "3200cc",
+      "model": "Toyota SW5 Comforter"
+    },
+    {
+      "id": "8",
+      "name": "Lexus LX 600 SUV",
+      "price": "3,500,000",
+      "picture": "https://i.pinimg.com/736x/ed/39/da/ed39da3199348e73b617286586bcb1ea.jpg",
+      "fuel": "diesel",
+      "year": "2021",
+      "displacement": "3500cc",
+      "model": "Toyota SW4 luxury"
+    },
+    {
+      "id": "9",
+      "name": "Toyota Corolla Altis",
+      "price": "4,000,300",
+      "picture": "https://i.pinimg.com/736x/06/96/c8/0696c8528c9d1b9e30d25b87cb1e566e.jpg",
+      "fuel": "petrol",
+      "year": "2020",
+      "displacement": "2500cc",
+      "model": "Toyota SW5 mid Comfort"
+    },
+    {
+      "id": "10",
+      "name": "Toyota Alberton",
+      "price": "1,200,500",
+      "picture": "https://i.pinimg.com/236x/80/98/cc/8098ccf80224f3e71b361449627d4d19.jpg",
+      "fuel": "petrol",
+      "year": "2018",
+      "displacement": "1700cc",
+      "model": "Toyota Sw4 Alvenon"
+    },
+    {
+      "id": "11",
+      "name": "Toyota Luxgen Uv Ev ",
+      "price": "1,700,000",
+      "picture": "https://i.pinimg.com/236x/4d/26/a4/4d26a4ee7ebe1f23d63fbee735e639de.jpg",
+      "fuel": "diesel",
+      "year": "2014",
+      "displacement": "3500",
+      "model": "Toyota Luxy d3 "
+    },
+    {
+      "id": "12",
+      "name": "Toyota Avanza",
+      "price": "1,300,000",
+      "picture": "https://i.pinimg.com/236x/b8/30/ec/b830ec628d5baf059d33389b24867915.jpg",
+      "fuel": "diesel",
+      "year": "2014",
+      "displacement": "3500",
+      "model": "Toyota Av2 "
     }
-    ]
-  }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "danielshunza@gmail.com",
+      "password": "C0743250838c"
+    },
+    {
+      "id": "bb3f",
+      "username": "julius",
+      "password": "123"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "comment": "awesome car"
+    },
+    {
+      "id": "3934",
+      "body": "good customer service"
+    }
+  ]
+}
