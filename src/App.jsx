@@ -25,7 +25,7 @@ useEffect(
     <>
     <Navbar />
 
-  
+    
     <Routes>
 
       <Route path='/' element={<CarCollection data={cars} />} />

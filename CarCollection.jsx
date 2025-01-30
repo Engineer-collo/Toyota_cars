@@ -1,9 +1,10 @@
 function CarCollection({data}) {
+  console.log(data)
   return (
     <div className="main">
     {data.map((car) => {
         return (
-          <ul className='main'>
+          
           <li className='car-container' key={car.id}>
             
             <h1>Car name:{car.name}</h1>
@@ -16,7 +17,7 @@ function CarCollection({data}) {
             <button className="buyCar">Place Order</button>
             
           </li>
-          </ul>
+          
         )
         }
     )}
