@@ -119,6 +119,36 @@
       "year": "2014",
       "displacement": "3500",
       "model": "Toyota Av2 "
+    },
+    {
+      "id": "13",
+      "name": "Toyota Axel w4",
+      "price": "1,500,000",
+      "picture": "https://i.pinimg.com/236x/db/f6/7b/dbf67b0711bb9b2b0f30bae49fe8c3b8.jpg",
+      "fuel": "diesel",
+      "year": "2017",
+      "displacement": "3500",
+      "model": "Toyota Av2 "
+    },
+    {
+      "id": "14",
+      "name": "Toyota Vector sv4",
+      "price": "1,700,000",
+      "picture": "https://i.pinimg.com/236x/4b/d4/9f/4bd49fab390b1b5fd7deadb58def667e.jpg",
+      "fuel": "diesel",
+      "year": "2010",
+      "displacement": "3500",
+      "model": "Toyota Av2 "
+    },
+    {
+      "id": "15",
+      "name": "Toyota RAVO black ",
+      "price": "1,900,000",
+      "picture": "https://i.pinimg.com/236x/21/d2/17/21d217fa007b1405d549c4d289350fb6.jpg",
+      "fuel": "diesel",
+      "year": "2009",
+      "displacement": "3500",
+      "model": "Toyota Av2 "
     }
   ],
   "users": [
@@ -131,6 +161,11 @@
       "id": "bb3f",
       "username": "julius",
       "password": "123"
+    },
+    {
+      "id": "fb2e",
+      "username": "scarzze@gmail.com",
+      "password": "folloemw"
     }
   ],
   "comments": [
@@ -141,6 +176,10 @@
     {
       "id": "3934",
       "body": "good customer service"
+    },
+    {
+      "id": "20fc",
+      "body": "1000 hp wow amaizing"
     }
   ]
 }
