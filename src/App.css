@@ -101,6 +101,9 @@ li {
   cursor: pointer;
   width: 100%;
 }
+body{
+  background: linear-gradient(to left, brown ,green);
+}
 
 
 /* About.css */
@@ -108,12 +111,16 @@ li {
 span{
   font-weight: bold;
 }
+body {
+  background: linear-gradient(to left, aqua, rgb(248, 145, 10));
+}
+
 .about-content {
   background-color: #f3f4f6; /* Light gray background */
   padding: 2rem; /* Adds spacing inside the container */
   border-radius: 1rem; /* Rounded corners */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  width: %;; /* Limit width */
+  width: 8%; /* Limit width */
   margin: auto; /* Center horizontally */
 }
 

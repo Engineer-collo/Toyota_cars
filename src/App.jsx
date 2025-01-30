@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-
+import React from 'react'
 import './App.css'
 import CarCollection from '../CarCollection'
 import { Routes, Route } from 'react-router-dom'
@@ -8,11 +8,11 @@ import Navbar from './Navbar.jsx'
 import Footer from './Footer.jsx'
 import Login from './Login.jsx'
 import Comments from '../Comments.jsx'
+import Contact from './Contact.jsx'
+import './contact.css'
 
 function App() {
-const[cars, setCars] = useState([])
-
-
+const[cars, setCars] = useState([]);
   
 useEffect(
   () => {
@@ -32,7 +32,7 @@ useEffect(
       <Route path='/About' element={<About />} />
       <Route path='/Login' element={<Login/>} />
       <Route path='/Comments' element={<Comments />} />
-
+      <Route path='/Contact' element={<Contact/>}/>
 
     </Routes>
     <Footer />
