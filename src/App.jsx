@@ -12,23 +12,45 @@ import Comments from '../Comments.jsx'
 function App() {
 const[cars, setCars] = useState([])
 
+// state to keep track of seach input
+const [searchInput, setSearchInput] = useState([])
+
+const handleSearch = (query) => {
+  if (!query) {
+    setSearchInput(cars);
+  } else {
+    const results = cars.filter((car) =>
+      car.name.toLowerCase().includes(query.toLowerCase())
+    );
+    setSearchInput(results);
+  }
+};
+
 
   
 useEffect(
   () => {
-    fetch('http://localhost:8001/cars')
+    fetch('http://localhost:3000/cars')
     .then((response) => response.json())
-    .then((data) => setCars(data))
+    .then((data) => {
+      setCars(data)
+      setSearchInput(data)
+    }
+    )
+
   },[]
 )
   return (
     <>
-    <Navbar />
+    <Navbar 
+      onSearch={handleSearch}
+    />
 
+      {/* //data={cars}  */}
   
-    <Routes>
+    <Routes> 
 
-      <Route path='/' element={<CarCollection data={cars} />} />
+      <Route path='/' element={<CarCollection cars = {searchInput} />} />
       <Route path='/About' element={<About />} />
       <Route path='/Login' element={<Login/>} />
       <Route path='/Comments' element={<Comments />} />

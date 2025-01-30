@@ -1,7 +1,7 @@
-function CarCollection({data}) {
+function CarCollection({cars}) {
   return (
     <div className="main">
-    {data.map((car) => {
+    {cars.length > 0 ? (cars.map((car) => {
         return (
           <ul className='main'>
           <li className='car-container' key={car.id}>
@@ -17,9 +17,11 @@ function CarCollection({data}) {
             
           </li>
           </ul>
-        )
-        }
-    )}
+    )}))
+         : (
+          <h1> 404! Not Found</h1>
+        )}
+    
     
     </div>
   );

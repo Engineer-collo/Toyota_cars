@@ -74,7 +74,6 @@ function Login() {
       
       <button type="submit" className="login-button">Login</button>
     </form>
-    <p> </p>
     </div>
   );
 }
