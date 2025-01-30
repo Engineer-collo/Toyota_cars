@@ -28,6 +28,9 @@ function Footer() {
     <li>
     <Link to="/comments">Comments</Link>
     </li>
+    <li>
+      <Link to="/Admin">Admin</Link>
+    </li>
   </ul>
 
     </footer>
