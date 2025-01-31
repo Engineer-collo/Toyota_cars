@@ -31,21 +31,20 @@ function Comments() {
             setNewComment(e.target.value);
         }
         return (
-            <div className="comments-container">
-            <form onSubmit={handleSubmit} className="comments-form">
+            <form onSubmit={handleSubmit} className="comments-container">
             <label htmlFor="comment" className="comments-label">Leave a comment.</label >
-            <input
-            type="text"
-            name="comment"
-            value={newComment}
-            onChange={handleChange}
-            required
-            className="comments-input"
+            <textarea 
+                type="text"
+                name="comment"
+                rows={6}
+                value={newComment}
+                onChange={handleChange}
+                required
+                className="comments-input"
             />
             <button type="submit" className="comments-button"
             >Add comment</button>
             </form>
-            </div>
             );
         }
 

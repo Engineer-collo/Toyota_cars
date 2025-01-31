@@ -1,0 +1,95 @@
+/* order page styling */
+
+.make-order h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-container{
+    display: grid;
+    grid-template-columns:  2fr 1fr;
+    gap: 25px;
+    margin: 30px 40px;
+}
+
+.order-form{
+    background-color: #fff;
+    padding: 1.5rem 1.6rem;
+    border-radius: 12px;
+}
+
+.input-div{
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.input-div span{
+    color: crimson;
+}
+
+.input-div span label{
+    color: #213547;
+}
+
+.input-div input{
+    width: 100%;
+    height: 40px;
+    padding: 0 .4rem ;
+    font-size: 1.2rem;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.name-div{
+    display: flex;
+    gap: 10px;
+}
+
+.order-form button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-self: center; */
+    width: 230px;
+    height: 50px;
+    padding: 12px 20px;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    text-transform: capitalize;
+    /* border-radius: 6px; */
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.order-form button:hover{
+    background-color: #2563eb;
+}
+
+/* the product display */
+.your-order{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 10px;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.your-order img{
+    width: 200px;
+    height: auto;
+    border: 1px solid #333;
+}
+
+.your-order h3{
+    color: crimson;
+}

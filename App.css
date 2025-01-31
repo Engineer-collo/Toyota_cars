@@ -1,10 +1,12 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 body{
   box-sizing: border-box;
   margin:0px; 
   padding: 0px;
-  text-align: center;
+  text-transform: capitalize;
+  font-family: 'Poppins', sans-serif;
+  /* text-align: center; */
   background-color: #f0f0189a;
   background: linear-gradient(to right , #f5e908, #0efccd);
 }
@@ -12,23 +14,85 @@ body{
 
 /* Main container to align all cars */
 nav{
-  position: sticky;
-  top: 0; /* Sticks to the top */
-  z-index: 1000; /* Ensure it stays above other elements */
-
-}
-
-.logoIm{
-  width: 50px; /* Adjust width */
-  height: auto; /* Maintain aspect ratio */
-}
-.navBar {
+  width: 100%;
+  position: absolute;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  position: sticky;
+  top: 0; /* Sticks to the top */
+  z-index: 1; /* Ensure it stays above other elements */
+  box-shadow: 1px 2px 5px #000;
+  margin-bottom: 20px;
+
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.logoImg{
+  width: 50px; 
+  height: auto; 
+  /* color: green; */
+  /* border-radius: 30%; */
+}
+
+.navBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
+}
+
+.navBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  /* padding: 10px 20px; */
+}
+
+nav ul li{
+  margin: 0 15px;
+  padding: 2px 10px;
+  transition: border .3ms ease;
+}
+
+nav ul li:hover{
+  border: 1px solid #007bff;
+}
+
+/* search styling */
+#search-input {
+  width: 300px;
+  height: 40px;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+#search-form button {
+  width: 80px;
+  height: 42px;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  /* border-radius: 5px; */
+  cursor: pointer;
+  /* left: -20px; */
 }
 
 .main {
@@ -93,11 +157,7 @@ nav{
   font-weight: bold;
   color: #000;
   margin-top: 10px;
-}
-
-/* Optional: You can add hover effect for each car container */
-.car-container:hover {
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  color: crimson;
 }
 
 li {
@@ -116,9 +176,9 @@ li {
 
 
 /* About.css */
-
+/* ======================================================== */
 span{
-  font-weight: bold;
+  font-weight: 600;
 }
 .about-content {
   background-color: #f3f4f6; /* Light gray background */
@@ -130,11 +190,11 @@ span{
 }
 
 .about-title {
-  font-size: 2.5rem; /* Large font for the title */
-  font-weight: bold; /* Bold text */
-  color: #1f2937; /* Dark gray color */
-  margin-bottom: 1rem; /* Space below the title */
-  text-align: center; /* Center text */
+  font-size: 2.5rem; 
+  font-weight: bold; 
+  color: #1f2937; 
+  margin-bottom: 1rem; 
+  text-align: center; 
 }
 
 .about-text {
@@ -144,14 +204,12 @@ span{
 }
 
 
-
+/* ================================================ */
 
 /*Footer*/
 /* Footer.css */
 
 .footer {
-  padding:20px ;
-  padding:20px ;
   display: flex;
   justify-content: space-around;
   background-color: #222; /* Dark background for the footer */
@@ -161,6 +219,7 @@ span{
   font-family: Arial, sans-serif; /* Use a clean font */
   font-size: 0.9rem; /* Slightly smaller text size */
   border-top: 2px solid #444; /* Subtle top border */
+  margin-top: 20px;
 }
 
 .footer-text {
@@ -176,37 +235,35 @@ span{
 
 
 
-
+/* ========================================== */
 
 /*styling comments component*/
 .comments-container {
-width: 100%;
-  margin: 0 auto;
-  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  margin: 30px auto;
+  padding: 25px 16px;
   background-color: white;
-  border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.comments-form {
-  margin-bottom: 16px;
 }
 
 .comments-label {
   display: block;
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 600;
   margin-bottom: 8px;
   color: #4a4a4a;
 }
 
 .comments-input {
-  width: 100%;
+  width: 80%;
   padding: 10px;
   border: 1px solid #d1d5db;
-  border-radius: 8px;
   outline: none;
-  transition: border-color 0.3s;
+  transition: all 0.3s;
 }
 
 .comments-input:focus {
@@ -215,13 +272,12 @@ width: 100%;
 }
 
 .comments-button {
-  width: 100%;
+  width: 50%;
   margin-top: 12px;
   padding: 10px;
   background-color: #3b82f6;
   color: white;
   border: none;
-  border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.3s;
 }
@@ -229,16 +285,3 @@ width: 100%;
 .comments-button:hover {
   background-color: #2563eb;
 }
-
-
-
-/*Searchbar*/
-.searchBar{
-  border: none;
-    outline: none;
-    padding: 10px;
-    width: 200px;
-    border-radius: 25px ;
-}
-
-
