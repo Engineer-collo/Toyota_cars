@@ -4,7 +4,7 @@ function SearchBar() {
     const [SearchTerm ,setSearchTerm] = useState([]);
     return( 
         <>
-        <input type="text" value=  placeholder="Search here..."/>
+        <input type="text" value= "search" placeholder="Search here..."/>
         </>
     )
 }

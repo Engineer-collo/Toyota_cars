@@ -1,34 +1,41 @@
-
-
-body{
+body {
   box-sizing: border-box;
-  margin:0px; 
+  margin: 0px;
   padding: 0px;
   text-align: center;
   background-color: #f0f0189a;
-  background: linear-gradient(to right , #f5e908, #0efccd);
+  background: linear-gradient(to right, #f5e908, #0efccd);
 }
 
-
 /* Main container to align all cars */
-nav{
+nav {
   position: sticky;
   top: 0; /* Sticks to the top */
   z-index: 1000; /* Ensure it stays above other elements */
-
 }
 
-.logoIm{
+.logoIm {
   width: 50px; /* Adjust width */
   height: auto; /* Maintain aspect ratio */
 }
 .navBar {
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
   align-items: center;
   background-color: #333;
   color: white;
   padding: 10px 20px;
+}
+.main_Nav a:hover { /*mouse on hover */
+  background-color:blue;
+  opacity: 0.5;
+  transition: 0.1s;
+}
+.main_Nav a {
+color: whitesmoke;
+padding:10px;
+border:solid red 2px;
+border-radius: 10px;
 }
 
 .main {
@@ -37,7 +44,8 @@ nav{
   justify-content: space-between;
   gap: 20px; /* Optional gap between car containers */
   padding: 20px;
-  margin: 0 auto}
+  margin: 0 auto;
+}
 
 /* Individual car container */
 .car-container {
@@ -46,7 +54,7 @@ nav{
   padding: 20px;
   text-align: center;
   background-color: #f9f9f9;
-  width: 300px;  /* Adjust width for each car container */
+  width: 300px; /* Adjust width for each car container */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   margin: 10px 0; /* Optional margin for spacing */
 }
@@ -104,8 +112,8 @@ li {
   list-style-type: none;
 }
 
-.buyCar{
-  background-color: #4CAF50;
+.buyCar {
+  background-color: #4caf50;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -114,10 +122,9 @@ li {
   width: 100%;
 }
 
-
 /* About.css */
 
-span{
+span {
   font-weight: bold;
 }
 .about-content {
@@ -125,7 +132,7 @@ span{
   padding: 2rem; /* Adds spacing inside the container */
   border-radius: 1rem; /* Rounded corners */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  width:80% ; /* Limit width */
+  width: 80%; /* Limit width */
   margin: auto; /* Center horizontally */
 }
 
@@ -143,15 +150,12 @@ span{
   line-height: 1.75rem; /* Improve readability with relaxed line height */
 }
 
-
-
-
 /*Footer*/
 /* Footer.css */
 
 .footer {
-  padding:20px ;
-  padding:20px ;
+  padding: 20px;
+  padding: 20px;
   display: flex;
   justify-content: space-around;
   background-color: #222; /* Dark background for the footer */
@@ -173,14 +177,9 @@ span{
   color: #f4a261; /* Accent color for hover effect */
 }
 
-
-
-
-
-
 /*styling comments component*/
 .comments-container {
-width: 100%;
+  width: 100%;
   margin: 0 auto;
   padding: 16px;
   background-color: white;
@@ -230,15 +229,11 @@ width: 100%;
   background-color: #2563eb;
 }
 
-
-
 /*Searchbar*/
-.searchBar{
+.searchBar {
   border: none;
-    outline: none;
-    padding: 10px;
-    width: 200px;
-    border-radius: 25px ;
+  outline: none;
+  padding: 10px;
+  width: 200px;
+  border-radius: 25px;
 }
-
-
