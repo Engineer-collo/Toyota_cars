@@ -48,10 +48,8 @@ function Login() {
   }
 
   return (
-
-    <div className="login-container">
-    
-    <form onSubmit={handleSubmit} className="login-form">
+   
+    <form onSubmit={handleSubmit} className="login-container">
       <label htmlFor="username">Username:</label>
       <input
         type="text"
@@ -76,8 +74,6 @@ function Login() {
       
       <button type="submit" className="login-button">Login</button>
     </form>
-    <p> </p>
-    </div>
   );
 }
 
