@@ -2,7 +2,7 @@ function About() {
   return (
     
         <div className="about-content">
-      <h1 className="about-title">About</h1>
+      <h1 className="about-title">About Our Toyota Company</h1>
       <p className="about-text"> Driving Innovation, Sustainability, and Mobility for All
 
 At Toyota, we are driven by a passion for innovation, sustainability, and delivering exceptional vehicles to meet the diverse needs of our global community. Established in 1937, Toyota Motor Corporation has grown to become one of the world's leading automobile manufacturers, renowned for quality, reliability, and cutting-edge technology.

@@ -30,7 +30,7 @@ useEffect(
 
       <Route path='/' element={<CarCollection data={cars} />} />
       <Route path='/About' element={<About />} />
-      <Route path='/Login' element={<Login/>} />
+      <Route path='/Login' element={<Login />} />
       <Route path='/Comments' element={<Comments />} />
 
 

@@ -125,7 +125,7 @@ span{
   padding: 2rem; /* Adds spacing inside the container */
   border-radius: 1rem; /* Rounded corners */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  width:80% ; /* Limit width */
+  width:40% ; /* Limit width */
   margin: auto; /* Center horizontally */
 }
 
@@ -149,33 +149,15 @@ span{
 /*Footer*/
 /* Footer.css */
 
-.footer {
-  padding:20px ;
-  padding:20px ;
+
+
+
+footer{
+  background-color: #333;
   display: flex;
   justify-content: space-around;
-  background-color: #222; /* Dark background for the footer */
-  color: #fff; /* White text for contrast */
-  text-align: center; /* Center align the text */
-  padding: 1rem 0; /* Add some vertical spacing */
-  font-family: Arial, sans-serif; /* Use a clean font */
-  font-size: 0.9rem; /* Slightly smaller text size */
-  border-top: 2px solid #444; /* Subtle top border */
+  color: white;
 }
-
-.footer-text {
-  margin: 0; /* Remove default margin */
-  color: #aaa; /* Slightly muted white for the text */
-  transition: color 0.3s; /* Smooth transition for hover effect */
-}
-
-.footer-text:hover {
-  color: #f4a261; /* Accent color for hover effect */
-}
-
-
-
-
 
 
 /*styling comments component*/
@@ -242,3 +224,8 @@ width: 100%;
 }
 
 
+.iconImg{
+  height: 20px;
+  width: 20px;
+
+}
