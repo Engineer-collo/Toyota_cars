@@ -200,7 +200,222 @@
         "displacement": "3500",
         "model": "Toyota Luxy d3 "
       }
+    },
+    {
+      "id": "f987",
+      "firstname": "kelvin",
+      "lastname": "kiprop",
+      "email": "kelkiprop@gmail.com",
+      "phoneNumber": "+254726000111",
+      "address": "Mombasa",
+      "car": {
+        "id": "4",
+        "name": "lexus LX 6000 SUV",
+        "price": "6,000,000",
+        "picture": "https://i.pinimg.com/236x/ed/39/da/ed39da3199348e73b617286586bcb1ea.jpg",
+        "fuel": "petrol",
+        "year": "2017",
+        "displacement": "3300cc",
+        "model": "Body-on-frame SUV"
+      }
+    },
+    {
+      "id": "fe13",
+      "firstname": "kelvin",
+      "lastname": "kiprop",
+      "email": "kelkiprop@gmail.com",
+      "phoneNumber": "+254726000111",
+      "address": "Mombasa",
+      "car": {
+        "id": "4",
+        "name": "lexus LX 6000 SUV",
+        "price": "6,000,000",
+        "picture": "https://i.pinimg.com/236x/ed/39/da/ed39da3199348e73b617286586bcb1ea.jpg",
+        "fuel": "petrol",
+        "year": "2017",
+        "displacement": "3300cc",
+        "model": "Body-on-frame SUV"
+      }
+    },
+    {
+      "id": "7867",
+      "firstname": "kelvin",
+      "lastname": "kiprop",
+      "email": "kelkiprop@gmail.com",
+      "phoneNumber": "+254726000111",
+      "address": "Mombasa",
+      "car": {
+        "id": "4",
+        "name": "lexus LX 6000 SUV",
+        "price": "6,000,000",
+        "picture": "https://i.pinimg.com/236x/ed/39/da/ed39da3199348e73b617286586bcb1ea.jpg",
+        "fuel": "petrol",
+        "year": "2017",
+        "displacement": "3300cc",
+        "model": "Body-on-frame SUV"
+      }
+    },
+    {
+      "id": "ade4",
+      "firstname": "kelvin",
+      "lastname": "kiprop",
+      "email": "kelkiprop@gmail.com",
+      "phoneNumber": "+254726000111",
+      "address": "Mombasa",
+      "car": {
+        "id": "4",
+        "name": "lexus LX 6000 SUV",
+        "price": "6,000,000",
+        "picture": "https://i.pinimg.com/236x/ed/39/da/ed39da3199348e73b617286586bcb1ea.jpg",
+        "fuel": "petrol",
+        "year": "2017",
+        "displacement": "3300cc",
+        "model": "Body-on-frame SUV"
+      }
+    },
+    {
+      "id": "7dca",
+      "firstname": "kelvin",
+      "lastname": "kiprop",
+      "email": "kelkiprop@gmail.com",
+      "phoneNumber": "+254726000111",
+      "address": "Mombasa",
+      "car": {
+        "id": "4",
+        "name": "lexus LX 6000 SUV",
+        "price": "6,000,000",
+        "picture": "https://i.pinimg.com/236x/ed/39/da/ed39da3199348e73b617286586bcb1ea.jpg",
+        "fuel": "petrol",
+        "year": "2017",
+        "displacement": "3300cc",
+        "model": "Body-on-frame SUV"
+      }
+    },
+    {
+      "id": "609a",
+      "firstname": "kelvin",
+      "lastname": "kiprop",
+      "email": "kelkiprop@gmail.com",
+      "phoneNumber": "+254726000111",
+      "address": "Mombasa",
+      "car": {
+        "id": "4",
+        "name": "lexus LX 6000 SUV",
+        "price": "6,000,000",
+        "picture": "https://i.pinimg.com/236x/ed/39/da/ed39da3199348e73b617286586bcb1ea.jpg",
+        "fuel": "petrol",
+        "year": "2017",
+        "displacement": "3300cc",
+        "model": "Body-on-frame SUV"
+      }
+    },
+    {
+      "id": "64f3",
+      "firstname": "kelvin",
+      "lastname": "kiprop",
+      "email": "kelkiprop@gmail.com",
+      "phoneNumber": "+254726000111",
+      "address": "Mombasa",
+      "car": {
+        "id": "4",
+        "name": "lexus LX 6000 SUV",
+        "price": "6,000,000",
+        "picture": "https://i.pinimg.com/236x/ed/39/da/ed39da3199348e73b617286586bcb1ea.jpg",
+        "fuel": "petrol",
+        "year": "2017",
+        "displacement": "3300cc",
+        "model": "Body-on-frame SUV"
+      }
+    },
+    {
+      "id": "94d9",
+      "firstname": "kelvin",
+      "lastname": "kiprop",
+      "email": "kelkiprop@gmail.com",
+      "phoneNumber": "+254726000111",
+      "address": "Mombasa",
+      "car": {
+        "id": "4",
+        "name": "lexus LX 6000 SUV",
+        "price": "6,000,000",
+        "picture": "https://i.pinimg.com/236x/ed/39/da/ed39da3199348e73b617286586bcb1ea.jpg",
+        "fuel": "petrol",
+        "year": "2017",
+        "displacement": "3300cc",
+        "model": "Body-on-frame SUV"
+      }
+    },
+    {
+      "id": "476d",
+      "firstname": "kelvin",
+      "lastname": "kiprop",
+      "email": "kelkiprop@gmail.com",
+      "phoneNumber": "+254726000111",
+      "address": "Mombasa",
+      "car": {
+        "id": "4",
+        "name": "lexus LX 6000 SUV",
+        "price": "6,000,000",
+        "picture": "https://i.pinimg.com/236x/ed/39/da/ed39da3199348e73b617286586bcb1ea.jpg",
+        "fuel": "petrol",
+        "year": "2017",
+        "displacement": "3300cc",
+        "model": "Body-on-frame SUV"
+      }
+    },
+    {
+      "id": "8266",
+      "firstname": "kelvin",
+      "lastname": "kiprop",
+      "email": "kelkiprop@gmail.com",
+      "phoneNumber": "+254726000111",
+      "address": "Mombasa",
+      "car": {
+        "id": "4",
+        "name": "lexus LX 6000 SUV",
+        "price": "6,000,000",
+        "picture": "https://i.pinimg.com/236x/ed/39/da/ed39da3199348e73b617286586bcb1ea.jpg",
+        "fuel": "petrol",
+        "year": "2017",
+        "displacement": "3300cc",
+        "model": "Body-on-frame SUV"
+      }
+    },
+    {
+      "id": "a9bd",
+      "firstname": "kelvin",
+      "lastname": "kiprop",
+      "email": "kelkiprop@gmail.com",
+      "phoneNumber": "+245111111111",
+      "address": "mombasa",
+      "car": {
+        "id": "1",
+        "name": "Toyota Hiace 3.0 COMMUTER D4D Van AT",
+        "price": "6,500,000",
+        "picture": "https://i.pinimg.com/736x/22/3d/13/223d13c21f74f8db3105cb9401bbc4de.jpg",
+        "fuel": "petrol",
+        "year": "2018",
+        "displacement": "2982cc",
+        "model": "Toyota Hiace Commuter"
+      }
+    },
+    {
+      "id": "0361",
+      "firstname": "kelvin",
+      "lastname": "kiprop",
+      "email": "kelkiprop@gmail.com",
+      "phoneNumber": "+245111111111",
+      "address": "mombasa",
+      "car": {
+        "id": "1",
+        "name": "Toyota Hiace 3.0 COMMUTER D4D Van AT",
+        "price": "6,500,000",
+        "picture": "https://i.pinimg.com/736x/22/3d/13/223d13c21f74f8db3105cb9401bbc4de.jpg",
+        "fuel": "petrol",
+        "year": "2018",
+        "displacement": "2982cc",
+        "model": "Toyota Hiace Commuter"
+      }
     }
-    
   ]
 }
