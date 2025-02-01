@@ -8,6 +8,7 @@ import Navbar from './src/Navbar.jsx'
 import Footer from './src/Footer.jsx'
 import Login from './src/Login.jsx'
 import Comments from './src/Comments.jsx'
+import Contact from './src/Contact.jsx'
 import MakeOrder from './src/MakeOrder.jsx'
 
 function App() {
@@ -39,6 +40,7 @@ useEffect(() => {
       <Route path='/About' element={<About />} />
       <Route path='/Login' element={<Login/>} />
       <Route path='/Comments' element={<Comments />} />
+      <Route path='/Contact' element={<Contact/>} />
       <Route path='/make-order' element={<MakeOrder />} />
     </Routes>
     <Footer />

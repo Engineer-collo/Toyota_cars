@@ -175,115 +175,80 @@ li {
   width: 100%;
 }
 
-
-/* About.css */
-/* ======================================================== */
-span{
-  font-weight: 600;
-}
-.about-content {
-  background-color: #f3f4f6; /* Light gray background */
-  padding: 2rem; /* Adds spacing inside the container */
-  border-radius: 1rem; /* Rounded corners */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  width:80% ; /* Limit width */
-  margin: auto; /* Center horizontally */
+.contact-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #222;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+  text-align: center;
 }
 
-.about-title {
-  font-size: 2.5rem; 
-  font-weight: bold; 
-  color: #1f2937; 
-  margin-bottom: 1rem; 
-  text-align: center; 
+h2 {
+  color: #fff;
+  font-size: 24px;
 }
 
-.about-text {
-  color: #374151; /* Medium gray color for the paragraph */
-  font-size: 1.125rem; /* Slightly larger text */
-  line-height: 1.75rem; /* Improve readability with relaxed line height */
-}
-
-
-/* ================================================ */
-
-/*Footer*/
-/* Footer.css */
-
-.footer {
-  display: flex;
-  justify-content: space-around;
-  background-color: #222; /* Dark background for the footer */
-  color: #fff; /* White text for contrast */
-  text-align: center; /* Center align the text */
-  padding: 1rem 0; /* Add some vertical spacing */
-  font-family: Arial, sans-serif; /* Use a clean font */
-  font-size: 0.9rem; /* Slightly smaller text size */
-  border-top: 2px solid #444; /* Subtle top border */
-  margin-top: 20px;
-}
-
-.footer-text {
-  margin: 0; /* Remove default margin */
-  color: #aaa; /* Slightly muted white for the text */
-  transition: color 0.3s; /* Smooth transition for hover effect */
-}
-
-.footer-text:hover {
-  color: #f4a261; /* Accent color for hover effect */
-}
-
-
-
-
-/* ========================================== */
-
-/*styling comments component*/
-.comments-container {
+.contact-form {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 600px;
-  margin: 30px auto;
-  padding: 25px 16px;
-  background-color: white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.comments-label {
-  display: block;
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 8px;
-  color: #4a4a4a;
-}
-
-.comments-input {
-  width: 80%;
+.contact-form input,
+.contact-form textarea {
+  margin: 10px 0;
   padding: 10px;
-  border: 1px solid #d1d5db;
-  outline: none;
-  transition: all 0.3s;
-}
-
-.comments-input:focus {
-  border-color: #3b82f6;
-  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
-}
-
-.comments-button {
-  border-radius: 30px;
-  width: 50%;
-  margin-top: 12px;
-  padding: 10px;
-  background-color: #3b82f6;
-  color: white;
   border: none;
-  cursor: pointer;
-  transition: background-color 0.3s;
+  border-radius: 5px;
+  font-size: 16px;
+  background: #333;
+  color: #fff;
 }
 
-.comments-button:hover {
-  background-color: #2563eb;
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: 2px solid #ff9800;
+}
+
+.contact-form button {
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  background: #ff9800;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.contact-form button:hover {
+  background: #ff5722;
+}
+
+.contact-form button:disabled {
+  background: #555;
+  cursor: not-allowed;
+}
+
+.toast {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+  background: #28a745;
+  animation: fadein 0.5s;
+}
+
+.toast.error {
+  background: #dc3545;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
