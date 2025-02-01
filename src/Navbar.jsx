@@ -18,7 +18,12 @@ function Navbar({searchQuery, setSearchQuery}) {
           <Link to="/Login">Login</Link>
         </li>
         <li>
+         
           <Link to="/Contact">Reach Us</Link>
+        </li>
+        <li>
+          <Link to="/Admin">Admin</Link>
+         
         </li>
       </ul>
       <SearchBar searchQuery={searchQuery} setSearchQuery={setSearchQuery}/>

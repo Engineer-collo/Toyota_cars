@@ -1,1 +1,5 @@
 
+Project set-up
+-Start by creating a react application by running the the below command. command : npm create vite@latest my-react-app -- --template react -then after the command navigate into the app created and run the below command to install the dependancies neeeded to build and run the application command: npm install. -after that create a db.json file and copy in the data provided. run the below command to start a local server command json-server --watch db.json. -after that run the below command again to display the project on the browser connand: npm run dev
+
+run run the below command to initialize a local repository the leave it. -go to github and create a new repository copy the linkung URL and paste it to the terminal then run the below commant to add all the changes. command git add . then run the below command to to commit the changes made. command: git commit -m 'first commit' the run the below command to confirm the origin branch command: git branch -After knowing the origin branch run the following command to commited changes to the origin repository on github command: git push origin main/master

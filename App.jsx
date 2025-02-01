@@ -10,6 +10,7 @@ import Login from './src/Login.jsx'
 import Comments from './src/Comments.jsx'
 import Contact from './src/Contact.jsx'
 import MakeOrder from './src/MakeOrder.jsx'
+import ViewOrders from './src/ViewOrders.jsx'
 
 function App() {
 // store all cars
@@ -42,6 +43,7 @@ useEffect(() => {
       <Route path='/Comments' element={<Comments />} />
       <Route path='/Contact' element={<Contact/>} />
       <Route path='/make-order' element={<MakeOrder />} />
+      <Route path='/Admin' element={<ViewOrders />} />
     </Routes>
     <Footer />
     </>
