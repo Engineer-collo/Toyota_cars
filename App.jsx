@@ -9,6 +9,7 @@ import Footer from './src/Footer.jsx'
 import Login from './src/Login.jsx'
 import Comments from './src/Comments.jsx'
 import MakeOrder from './src/MakeOrder.jsx'
+import ViewOrders from './src/ViewOrders.jsx'
 
 function App() {
 // store all cars
@@ -40,6 +41,7 @@ useEffect(() => {
       <Route path='/Login' element={<Login/>} />
       <Route path='/Comments' element={<Comments />} />
       <Route path='/make-order' element={<MakeOrder />} />
+      <Route path='/Admin' element={<ViewOrders />} />
     </Routes>
     <Footer />
     </>
