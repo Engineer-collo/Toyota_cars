@@ -14,7 +14,7 @@ function Login() {
  // send data to server
     fetch('http://localhost:8001/users', {
       method: 'POST',
-      headers: {
+      headers: 
         'Content-Type': 'application/json'
       },
       body: JSON.stringify(formData)
