@@ -9,7 +9,23 @@ const ViewOrders = () => {
    .then((response) => response.json())
     .then((data) => setOrders(data))
   }, []);
+  const deleteOrder = (orderId) => {
+    const updatedOrders = orders.filter((order) => order.id !== orderId);
+    setOrders(updatedOrders);
 
+    fetch(`http://localhost:8001/orders/${orderId}`, {
+        method: 'DELETE',
+      })
+        .then((response) => {
+          if (response.ok) {
+            console.log(`Order ${orderId} deleted successfully`);
+          } else {
+            console.error('Failed to delete order');
+          }
+        })
+        .catch((error) => console.error('Error:', error));
+    };
+    
   return (
     <div>
       <h1>Admin Dashboard</h1>
