@@ -142,5 +142,13 @@
       "id": "3934",
       "body": "good customer service"
     }
+  ],
+  "Contact": [
+    {
+      "id": "b02e",
+      "name": "Hosea biwott",
+      "email": "scarzze@gmail.com",
+      "message": "hwllo world"
+    }
   ]
 }

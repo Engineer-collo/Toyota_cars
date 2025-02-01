@@ -32,7 +32,7 @@ const handleSearch = (query) => {
   
 useEffect(
   () => {
-    fetch('http://localhost:3000/cars')
+    fetch('http://localhost:8001/cars')
     .then((response) => response.json())
     .then((data) => {
       setCars(data)
