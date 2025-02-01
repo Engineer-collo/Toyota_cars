@@ -9,7 +9,7 @@ function SearchBar({ onSearch }) {
         onSearch(e.target.value) // call the search function passed as a prop
     }
     return( 
-        <>           
+        <>  
                 <input 
                     type="text" 
                     id="search-input" 

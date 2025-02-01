@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import SearchBar from "./SearchBar";
+import Contact from "./Contact";
 // import { useState } from "react";
 
 function Navbar({onSearch}) {
@@ -22,6 +23,9 @@ function Navbar({onSearch}) {
         </li>
         <li>
           <Link to="/Login">Login</Link>
+        </li>
+        <li>
+          <Link to="/Contact">Contact</Link>
         </li>
       </ul>
       {/* <form id="search-form" onsubmit=

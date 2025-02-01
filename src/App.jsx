@@ -8,6 +8,8 @@ import Navbar from './Navbar.jsx'
 import Footer from './Footer.jsx'
 import Login from './Login.jsx'
 import Comments from '../Comments.jsx'
+import Contact from './Contact.jsx'
+
 
 function App() {
 const[cars, setCars] = useState([])
@@ -54,6 +56,8 @@ useEffect(
       <Route path='/About' element={<About />} />
       <Route path='/Login' element={<Login/>} />
       <Route path='/Comments' element={<Comments />} />
+      <Route path ='/Contact' element={<Contact />} />
+      <Route path='/Admin' element={<messages />} />
 
 
     </Routes>
