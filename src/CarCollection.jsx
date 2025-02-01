@@ -17,13 +17,14 @@ function CarCollection({cars, allCars, searchQuery, setSearchedCar}) {
   }, [searchQuery, allCars, setSearchedCar])
 
   return (
-    <div className="main">
+    <div className="main-main">
+      <h1>car collection</h1>
+      <div className="main">
     {cars.length === 0 ? (
       <p>no cars available</p>
     ): (cars.map((car) => {
         return (          
           <li className='car-container' key={car.id}>
-            
             <h1>{car.name}</h1>
             <img src={ car.picture}  alt={car.make}  />
             <h5>Ksh.{car.price}</h5>
@@ -37,7 +38,7 @@ function CarCollection({cars, allCars, searchQuery, setSearchedCar}) {
           </li>
     )})
       )}
-    
+    </div>
     </div>
   );
 }
