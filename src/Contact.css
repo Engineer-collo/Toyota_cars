@@ -45,13 +45,13 @@
   }
   
   /* Form Fields */
-  form {
+  .contact-form {
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
   
-  input, textarea {
+  .contact-form input, .contact-form textarea {
     width: 100%;
     padding: 12px;
     border-radius: 5px;
@@ -61,13 +61,13 @@
     font-size: 1rem;
   }
   
-  input:focus, textarea:focus {
+  .contact-form input:focus, .contact-form textarea:focus {
     outline: 2px solid #ffcc00;
     background: #444;
   }
   
   /* Button */
-  button {
+ .contact-form button {
     padding: 12px;
     font-size: 1rem;
     border: none;
@@ -78,7 +78,7 @@
     transition: 0.3s;
   }
   
-  button:hover {
+ .contact-form button:hover {
     background: #ffaa00;
     
   }
