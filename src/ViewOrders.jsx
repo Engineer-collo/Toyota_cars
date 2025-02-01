@@ -14,21 +14,21 @@ const ViewOrders = () => {
     <div>
       <h1>Admin Dashboard</h1>
       
-      <h2>Cars List</h2>
+      <h2>Car Orders</h2>
       <table>
         <thead>
           <tr>
         
-            <th>OrderID</th>
+            <th>Order ID</th>
             <th>First Name</th>
             <th>Last Name</th>
             <th>Phone Number</th>
-            <th>Email Adress</th>
+            <th>Customer Email Adress</th>
             <th>Shipping Adress</th>
-            <th>Make</th>
-            <th>Model</th>
-            <th>Price</th>
-            <th>Available</th>
+            <th>Car Model</th>
+            <th>Car Price</th>
+      
+            
           </tr>
         </thead>
         <tbody>
@@ -39,11 +39,10 @@ const ViewOrders = () => {
               <td>{order.lastname}</td>
               <td>{order.phoneNumber}</td>
               <td>{order.email}</td>
-              <td>{order.adress}</td>
-              <td>{order.car.make}</td>
+              <td>{order.address}</td> 
               <td>{order.car.model}</td>
               <td>{order.car.price}</td>
-              <td>{order.available ? "Yes" : "No"}</td>
+              
             </tr>
           ))}
         </tbody>
