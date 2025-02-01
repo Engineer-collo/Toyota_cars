@@ -1,13 +1,6 @@
 import { useState } from "react"
 
-function SearchBar({ searchQuery, setSearchQuery}) {
-    // const [SearchTerm ,setSearchTerm] = useState("");
-
-    // const handleSearchInput = (e) => {
-    //     e.preventDefault();
-    //     setSearchTerm(e.target.value)
-    //     onSearch(e.target.value) // call the search function passed as a prop
-    // }
+function SearchBar({ searchQuery, setSearchQuery}) {   
     return( 
         <>           
                 <input 
@@ -16,6 +9,7 @@ function SearchBar({ searchQuery, setSearchQuery}) {
                     placeholder="Search" 
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
+                    autoComplete="off"
                 />
         </>
     )
