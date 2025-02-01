@@ -78,6 +78,7 @@ nav ul li:hover{
   font-weight: 600;
   color: #333;
   border: 1px solid #ccc;
+  border-radius: 30px;
   outline: none;
 }
 
@@ -272,6 +273,7 @@ span{
 }
 
 .comments-button {
+  border-radius: 30px;
   width: 50%;
   margin-top: 12px;
   padding: 10px;

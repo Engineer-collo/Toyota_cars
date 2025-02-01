@@ -35,6 +35,7 @@
   }
   
   .login-button {
+    border-radius: 30px;
     align-self: center;
     width: 230px;
     height: 50px;

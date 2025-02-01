@@ -18,10 +18,37 @@ const MakeOrder = () => {
 
     // need a handleSubmit here for the form
     const handleOrder = (e) => {
-        // e.preventDefault()
-        console.log("Order Submitted: ", {firstname, lastname, email, phoneNumber, address, car})
-        alert("Order Placed!")
+         e.preventDefault()
+        //console.log("Order Submitted: ", {firstname, lastname, email, phoneNumber, address, car})
+        const order = {firstname, lastname, email, phoneNumber, address, car}
+//console.log("Final order:" ,order)
+
+
+
+fetch("http://localhost:8001/orders", {
+    method: "POST",
+    headers: {
+        "Content-Type": "application/json"
+    },
+    body: JSON.stringify(order)
+})
+.then(response => response.json())
+.then(data => console.log(data))
+.catch(error => console.error("Error:", error));
+
+
+
+
+
     }
+
+
+
+
+
+
+
+
   return (
     <div className='make-order'>
         <h1>complete your order</h1>
@@ -80,7 +107,7 @@ const MakeOrder = () => {
                         required
                     />
                 </div>
-                <button>submit</button>
+                <button className='orderSubmitBtn'>submit</button>
             </form>
 
             {/* display the car ordered */}
