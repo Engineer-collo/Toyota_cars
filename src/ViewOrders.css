@@ -45,7 +45,7 @@ body {
   }
   
   tbody tr:hover {
-    background-color: #0075a7;
+    /* background-color: #0075a7; */
     cursor: pointer;
   }
   
@@ -64,6 +64,18 @@ body {
     color: #d85f51;
   }
   
+.orders button{
+  width: 90px;
+  height: auto;
+  padding: 5px 6px;
+  background-color: crimson;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
   /* Responsive Styles */
   @media (max-width: 768px) {
     table {

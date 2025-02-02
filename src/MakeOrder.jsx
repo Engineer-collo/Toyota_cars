@@ -38,15 +38,15 @@ fetch("http://localhost:8001/orders", {
 
 
 
+setFirstName( "")
+setLastName( "")
+setEmail( "")
+setPhoneNumber( "")
+setAddress( "")
 
+alert("order successfully placed");
 
     }
-
-
-
-
-
-
 
 
   return (
