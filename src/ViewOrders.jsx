@@ -10,18 +10,19 @@ const ViewOrders = () => {
     .then((data) => setOrders(data))
   }, []);
   const deleteOrder = (orderId) => {
-    const updatedOrders = orders.filter((order) => order.id !== orderId);
-    setOrders(updatedOrders);
+    // const updatedOrders = orders.filter((order) => order.id !== orderId);
+    // setOrders(updatedOrders);
 
     fetch(`http://localhost:8001/orders/${orderId}`, {
         method: 'DELETE',
       })
-        .then((response) => {
-          if (response.ok) {
-            console.log(`Order ${orderId} deleted successfully`);
-          } else {
-            console.error('Failed to delete order');
-          }
+        .then(( ) => {
+        //   if (response.ok) {
+        //     console.log(`Order ${orderId} deleted successfully`);
+        //   } else {
+        //     console.error('Failed to delete order');
+        //   }
+        setOrders(orders.filter((order)=>order.id !== orderId))
         })
         .catch((error) => console.error('Error:', error));
     };
@@ -59,7 +60,7 @@ const ViewOrders = () => {
               <td>{order.car.make}</td>
               <td>{order.car.model}</td>
               <td>{order.car.price}</td>
-              <td>{order.available ? "Yes" : "No"}</td>
+              <td><button onClick={() => deleteOrder(orderId)}>delete</button></td>
             </tr>
           ))}
         </tbody>
