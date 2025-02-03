@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import './Comments.css'
+
 function Comments() {
   const [comments, setComments] = useState([]);
   const [newComment, setNewComment] = useState('');
@@ -32,7 +34,7 @@ function Comments() {
         }
         return (
             <form onSubmit={handleSubmit} className="comments-container">
-            <label htmlFor="comment" className="comments-label">Leave a comment.</label >
+            <label htmlFor="comment" className="comments-label">Leave a Review</label >
             <textarea 
                 type="text"
                 name="comment"
@@ -43,7 +45,7 @@ function Comments() {
                 className="comments-input"
             />
             <button type="submit" className="comments-button"
-            >Add comment</button>
+            >Add Review</button>
             </form>
             );
         }

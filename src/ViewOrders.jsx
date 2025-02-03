@@ -10,16 +10,17 @@ const ViewOrders = () => {
    .then((response) => response.json())
     .then((data) => setOrders(data))
   }, []);
-  const deleteOrder = (orderId) => {
-    const updatedOrders = orders.filter((order) => order.id !== orderId);
+
+  const deleteOrder = (id) => {
+    const updatedOrders = orders.filter((order) => order.id !== id);
     setOrders(updatedOrders);
 
-    fetch(`http://localhost:8001/orders/${orderId}`, {
+    fetch(`http://localhost:8001/orders/${id}`, {
         method: 'DELETE',
       })
         .then((response) => {
           if (response.ok) {
-            console.log(`Order ${orderId} deleted successfully`);
+            console.log(`Order ${id} deleted successfully`);
           } else {
             console.error('Failed to delete order');
           }
@@ -28,7 +29,7 @@ const ViewOrders = () => {
     };
     
   return (
-    <div>
+    <div className='orders'>
       <h1>Admin Dashboard</h1>
       
       <h2>Cars List</h2>
@@ -42,8 +43,9 @@ const ViewOrders = () => {
             <th>Phone Number</th>
             <th>Email Adress</th>
             <th>Shipping Adress</th>
-            <th>Make</th>
             <th>Model</th>
+            <th>Make</th>
+            <th>Fuel type</th>
             <th>Price</th>
             <th>Available</th>
           </tr>
@@ -56,11 +58,12 @@ const ViewOrders = () => {
               <td>{order.lastname}</td>
               <td>{order.phoneNumber}</td>
               <td>{order.email}</td>
-              <td>{order.adress}</td>
-              <td>{order.car.make}</td>
+              <td>{order.address}</td>
               <td>{order.car.model}</td>
+              <td>{order.car.year}</td>
+              <td>{order.car.fuel}</td>
               <td>{order.car.price}</td>
-              <td>{order.available ? "Yes" : "No"}</td>
+              <td><button onClick={() => deleteOrder(order.id)}>delete</button></td>
             </tr>
           ))}
         </tbody>
