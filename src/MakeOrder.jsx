@@ -116,6 +116,7 @@ alert("order successfully placed");
                     <h2>{car.name}</h2>
                     <img src={car.picture} alt="" />
                     <h3>Ksh. {car.price}</h3>
+                    <h4>Year: {car.year} <br /> Fuel: {car.fuel}</h4>
                 </div>
             ): (
                 <p>Select a vehicle</p>

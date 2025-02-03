@@ -55,25 +55,32 @@ body {
   }
   
   /* Status Column (Available/Not Available) */
-  td:last-child {
+  /* td:last-child {
     font-weight: bold;
     color: #27ae60;
   }
   
   td:last-child:empty {
     color: #d85f51;
-  }
-  
+  } */
+  table td:nth-child(5){
+    text-transform: lowercase;
+  } 
+
 .orders button{
   width: 90px;
   height: auto;
   padding: 5px 6px;
-  background-color: crimson;
+  background-color: green;
   font-size: 16px;
   outline: none;
   border: none;
   color: #fff;
   cursor: pointer;
+}
+
+.orders button:hover{
+  background-color: crimson;
 }
 
   /* Responsive Styles */
