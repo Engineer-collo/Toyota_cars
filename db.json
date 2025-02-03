@@ -180,6 +180,10 @@
     {
       "id": "20fc",
       "body": "1000 hp wow amaizing"
+    },
+    {
+      "id": "67ac",
+      "body": "gs"
     }
   ],
   "orders": [
@@ -217,6 +221,60 @@
         "year": "2022",
         "displacement": "3200cc",
         "model": "Toyota SW5 Comforter"
+      }
+    },
+    {
+      "id": "0efa",
+      "firstname": "dan",
+      "lastname": "karanja",
+      "email": "dankaranja@gmail.com",
+      "phoneNumber": "0765432345",
+      "address": "Thika",
+      "car": {
+        "id": "1",
+        "name": "Toyota Hiace 3.0 COMMUTER D4D Van AT",
+        "price": "6,500,000",
+        "picture": "https://i.pinimg.com/736x/22/3d/13/223d13c21f74f8db3105cb9401bbc4de.jpg",
+        "fuel": "petrol",
+        "year": "2018",
+        "displacement": "2982cc",
+        "model": "Toyota Hiace Commuter"
+      }
+    },
+    {
+      "id": "cf46",
+      "firstname": "kevin",
+      "lastname": "oduor",
+      "email": "kevinoduor@gmail.com",
+      "phoneNumber": "0789675434",
+      "address": "kisumu",
+      "car": {
+        "id": "1",
+        "name": "Toyota Hiace 3.0 COMMUTER D4D Van AT",
+        "price": "6,500,000",
+        "picture": "https://i.pinimg.com/736x/22/3d/13/223d13c21f74f8db3105cb9401bbc4de.jpg",
+        "fuel": "petrol",
+        "year": "2018",
+        "displacement": "2982cc",
+        "model": "Toyota Hiace Commuter"
+      }
+    },
+    {
+      "id": "1335",
+      "firstname": "jane",
+      "lastname": "wekesa",
+      "email": "janewekesa@gmail.com",
+      "phoneNumber": "0785623452",
+      "address": "kakamega",
+      "car": {
+        "id": "1",
+        "name": "Toyota Hiace 3.0 COMMUTER D4D Van AT",
+        "price": "6,500,000",
+        "picture": "https://i.pinimg.com/736x/22/3d/13/223d13c21f74f8db3105cb9401bbc4de.jpg",
+        "fuel": "petrol",
+        "year": "2018",
+        "displacement": "2982cc",
+        "model": "Toyota Hiace Commuter"
       }
     }
   ]
