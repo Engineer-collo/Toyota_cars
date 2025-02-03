@@ -11,6 +11,8 @@ import Comments from './src/Comments.jsx'
 import Contact from './src/Contact.jsx'
 import MakeOrder from './src/MakeOrder.jsx'
 import ViewOrders from './src/ViewOrders.jsx'
+import History from './src/History.jsx'
+import Sponsor from './src/Sponsor.jsx'
 
 function App() {
 // store all cars
@@ -45,6 +47,9 @@ useEffect(() => {
       <Route path='/make-order' element={<MakeOrder />} />
       <Route path='/Admin' element={<ViewOrders />} />
     </Routes>
+
+    <History />
+    <Sponsor />
     <Footer />
     </>
   )

@@ -259,3 +259,37 @@ h2 {
   from { opacity: 0; }
   to { opacity: 1; }
 }
+
+#history{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  
+  font-size: 30px;
+}
+
+#sponsorDiv{
+display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  font-size: 30px;
+}
+
+
+#n{
+  color: #007bff;
+}
+
+#para{
+  padding-left: 300px;
+  padding-right:300px ;
+}
+
+#t{
+  padding-right: 20px;
+}
+
+#sponserh1{
+  padding-bottom: 10px;
+  padding-top: 50px;
+}
