@@ -170,10 +170,6 @@
   ],
   "comments": [
     {
-      "id": "1",
-      "comment": "awesome car"
-    },
-    {
       "id": "3934",
       "body": "good customer service"
     },
@@ -184,45 +180,13 @@
     {
       "id": "67ac",
       "body": "gs"
+    },
+    {
+      "id": "ac3f",
+      "body": "Took time to get back. Poor communication\n"
     }
   ],
   "orders": [
-    {
-      "id": "0e9d",
-      "firstname": "collins",
-      "lastname": "likhomba",
-      "email": "collinslikhomba@gmail.com",
-      "phoneNumber": "0743250838",
-      "address": "kitale",
-      "car": {
-        "id": "2",
-        "name": "Toyota Fortuner Toyota Land Cruiser Prado Lexus GX Car",
-        "price": "8,000,000",
-        "picture": "https://i.pinimg.com/736x/d7/3a/f8/d73af822e7ae484561635ad1550fd784.jpg",
-        "fuel": "Diesel",
-        "year": "2019",
-        "displacement": "3500cc",
-        "model": "Luxury mid-size SUV"
-      }
-    },
-    {
-      "id": "1ade",
-      "firstname": "simon",
-      "lastname": "karanja",
-      "email": "simonkaranja@gmail.com",
-      "phoneNumber": "0752780456",
-      "address": "Nakuru",
-      "car": {
-        "id": "7",
-        "name": "Toyota Aygo",
-        "price": "4,200,300",
-        "picture": "https://i0.wp.com/www.photoscar.fr/wp-content/uploads/2021/11/Toyota-Aygo-X-2022-08.jpg?resize=1536%2C1152&ssl=1",
-        "fuel": "diesel",
-        "year": "2022",
-        "displacement": "3200cc",
-        "model": "Toyota SW5 Comforter"
-      }
-    },
     {
       "id": "0efa",
       "firstname": "dan",
@@ -242,39 +206,21 @@
       }
     },
     {
-      "id": "cf46",
-      "firstname": "kevin",
-      "lastname": "oduor",
-      "email": "kevinoduor@gmail.com",
-      "phoneNumber": "0789675434",
-      "address": "kisumu",
+      "id": "ce22",
+      "firstname": "Myname",
+      "lastname": "your name",
+      "email": "me@me.com",
+      "phoneNumber": "765554344",
+      "address": "there",
       "car": {
-        "id": "1",
-        "name": "Toyota Hiace 3.0 COMMUTER D4D Van AT",
-        "price": "6,500,000",
-        "picture": "https://i.pinimg.com/736x/22/3d/13/223d13c21f74f8db3105cb9401bbc4de.jpg",
-        "fuel": "petrol",
-        "year": "2018",
-        "displacement": "2982cc",
-        "model": "Toyota Hiace Commuter"
-      }
-    },
-    {
-      "id": "1335",
-      "firstname": "jane",
-      "lastname": "wekesa",
-      "email": "janewekesa@gmail.com",
-      "phoneNumber": "0785623452",
-      "address": "kakamega",
-      "car": {
-        "id": "1",
-        "name": "Toyota Hiace 3.0 COMMUTER D4D Van AT",
-        "price": "6,500,000",
-        "picture": "https://i.pinimg.com/736x/22/3d/13/223d13c21f74f8db3105cb9401bbc4de.jpg",
-        "fuel": "petrol",
-        "year": "2018",
-        "displacement": "2982cc",
-        "model": "Toyota Hiace Commuter"
+        "id": "11",
+        "name": "Toyota Luxgen Uv Ev ",
+        "price": "1,700,000",
+        "picture": "https://i.pinimg.com/236x/4d/26/a4/4d26a4ee7ebe1f23d63fbee735e639de.jpg",
+        "fuel": "diesel",
+        "year": "2014",
+        "displacement": "3500",
+        "model": "Toyota Luxy d3 "
       }
     }
   ]

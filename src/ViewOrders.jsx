@@ -32,7 +32,7 @@ const ViewOrders = () => {
     <div className='orders'>
       <h1>Admin Dashboard</h1>
       
-      <h2>Cars List</h2>
+      <h2>Orders</h2>
       <table>
         <thead>
           <tr>
@@ -63,7 +63,7 @@ const ViewOrders = () => {
               <td>{order.car.year}</td>
               <td>{order.car.fuel}</td>
               <td>{order.car.price}</td>
-              <td><button onClick={() => deleteOrder(order.id)}>delete</button></td>
+              <td><button onClick={() => deleteOrder(order.id)}>Delete</button></td>
             </tr>
           ))}
         </tbody>

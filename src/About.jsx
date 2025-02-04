@@ -1,17 +1,31 @@
+import './About.css'
+
 function About() {
-  return (
-    
-        <div className="about-content">
+  return (    
+    <div className="about-content">
       <h1 className="about-title">About</h1>
-      <p className="about-text"> Driving Innovation, Sustainability, and Mobility for All
+      <p className="about-text"> Driving Innovation, Sustainability, and Mobility for All At Toyota, 
+        we are driven by a passion for innovation, sustainability, and delivering exceptional vehicles
+        to meet the diverse needs of our global community. <br /><br /> Established in 1937, Toyota Motor Corporation 
+        has grown to become one of the world's leading automobile manufacturers, renowned for quality, reliability, 
+        and cutting-edge technology.</p>
 
-At Toyota, we are driven by a passion for innovation, sustainability, and delivering exceptional vehicles to meet the diverse needs of our global community. Established in 1937, Toyota Motor Corporation has grown to become one of the world's leading automobile manufacturers, renowned for quality, reliability, and cutting-edge technology.
-<br/>
+<div className="cards-main">
+<div className="card mission">
 <h3>Our Mission</h3>
-Our mission is to create a better society through mobility. We aim to enrich lives by designing and manufacturing vehicles that bring joy, safety, and convenience to millions of customers worldwide. With a commitment to sustainability, we are dedicated to reducing our environmental footprint and contributing to a greener future.
+<p>Our mission is to create a better society through mobility. We aim to enrich lives by designing and manufacturing 
+vehicles that bring joy, safety, and convenience to millions of customers worldwide. <br /> With a commitment to sustainability, 
+we are dedicated to reducing our environmental footprint and contributing to a greener future.</p>
+</div>
 
+<div className="card innovate">
 <h3>Innovation at Our Core</h3>
-From pioneering hybrid technology with the Toyota Prius to advancing the development of hydrogen-powered fuel cell vehicles and electric vehicles (EVs), Toyota continues to push the boundaries of what's possible. Our investment in autonomous driving systems and connected technologies is shaping the future of mobility, ensuring safer and smarter transportation for everyone.
+<p>From pioneering hybrid technology with the Toyota Prius to advancing the development of hydrogen-powered fuel 
+cell vehicles and electric vehicles (EVs), Toyota continues to push the boundaries of what's possible. <br /> Our investment 
+in autonomous driving systems and connected technologies is shaping the future of mobility, ensuring safer and smarter 
+transportation for everyone.</p>
+</div>
+</div>
 
  <h3>A Global Presence</h3>
 Toyota operates in over 170 countries, with manufacturing plants, research centers, and dealerships strategically located around the world. Our diverse team of professionals is united by a shared vision of delivering excellence and innovation to our customers.
@@ -43,7 +57,7 @@ At Toyota, we believe the road ahead is paved with opportunities to innovate, in
 
 
 
- </p>
+ {/* </p> */}
 
 
 

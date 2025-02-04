@@ -1,0 +1,29 @@
+.about-content{
+    margin: auto 50px;
+}
+
+.about-text{
+    border: 1px solid #ddd;
+    padding: 1rem 1.2rem;
+    border-radius: 12px;
+    margin: 10px 0;
+}
+
+.cards-main{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card{
+    width: 400px;
+    background-color: #1a1a;
+    padding: 1rem 3rem;
+    margin: 20px auto;
+    text-transform: capitalize;
+    border-radius: 20px;
+}
+.card h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
