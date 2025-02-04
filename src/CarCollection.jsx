@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import ViewOrders from "./ViewOrders";
+import Reviews from "./Reviews";
 
 function CarCollection({cars, allCars, searchQuery, setSearchedCar}) {
   // console.log({cars})
@@ -40,6 +41,8 @@ function CarCollection({cars, allCars, searchQuery, setSearchedCar}) {
     )})
       )}
     </div>
+
+    <Reviews/>
     </div>
   );
 }

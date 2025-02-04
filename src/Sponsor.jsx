@@ -3,7 +3,7 @@
 const Sponsor = () => {
   return (
     <>
-    <h1 id="sponserh1">Our Sponsers</h1>
+    <h1 id="sponserh1">Our partners</h1>
     <div id="sponsorDiv"> ⚛️🌐🚨🌊🌌⚖️</div>
     </>
       )

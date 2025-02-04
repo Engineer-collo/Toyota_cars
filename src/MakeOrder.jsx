@@ -81,7 +81,7 @@ alert("order successfully placed");
                         <input 
                             type="text"
                             value={lastname}
-                        onChange={(e) => setLastName(e.target.value)}
+                            onChange={(e) => setLastName(e.target.value)}
                             placeholder='Last Name'
                             required
                         />

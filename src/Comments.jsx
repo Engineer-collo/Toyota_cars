@@ -35,9 +35,17 @@ function Comments() {
         return (
             <form onSubmit={handleSubmit} className="comments-container">
             <label htmlFor="comment" className="comments-label">Leave a Review</label >
+            {/* <input 
+                type="text" 
+                name='name'
+                placeholder='your name'
+                onChange={handleChange}
+                required
+            /> */}
             <textarea 
                 type="text"
                 name="comment"
+                placeholder='write review...'
                 rows={6}
                 value={newComment}
                 onChange={handleChange}
